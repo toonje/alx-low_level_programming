@@ -5,12 +5,10 @@
  * @c: An input character
  * Description: function uses _putchar function to print
  * alphabet in lowercase 10 times
- * Return 1 if lowercase or 0 if uppercase
+ * Return 1 if is lowercase or 0 if is uppercase
  */
-
 int _islower(int c)
 {
-
 	char i;
 	int lower = 0;
 
@@ -21,5 +19,4 @@ int _islower(int c)
 	}
 
 	return (lower);
-
 }
