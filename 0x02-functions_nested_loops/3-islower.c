@@ -7,8 +7,10 @@
  * alphabet in lowercase 10 times
  * Return 1 if lowercase or 0 if uppercase
  */
+
 int _islower(int c)
 {
+
 	char i;
 	int lower = 0;
 
@@ -19,4 +21,5 @@ int _islower(int c)
 	}
 
 	return (lower);
+
 }
